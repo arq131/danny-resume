@@ -1,0 +1,54 @@
+* {
+    font-family: 'Cabin';
+}
+
+.about-me {
+    background-color: black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.text-info {
+    position: relative;
+    height: 800px;
+    opacity: 0;
+    transition: all 1.8s;
+    transform: translate(0px, 60px);
+}
+
+.visible-text {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.left-bio {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    color: #a0a0a0;
+}
+
+.left-bio h1 {
+    top: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.left-bio img {
+    position: relative;
+    top: 100px;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px #a0a0a0;
+}
+
+.right-bio {
+    position: absolute;
+    color: #a0a0a0;
+    height: 100%;
+    width: 50%;
+    left: 30%;
+    
+    font-size: 20px;
+}
