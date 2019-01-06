@@ -3,7 +3,7 @@
 }
 
 .about-me {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 1);
     box-shadow: 2px 2px 2px black;
 }
 
@@ -38,7 +38,7 @@
     top: 100px;
     left: 25%;
     width: 50%;
-    height: 25%;
+    height: 35%;
     border-radius: 4px;
     box-shadow: 3px 3px 3px #a0a0a0;
 }

@@ -1,10 +1,28 @@
-.skills {
-    
+.skills { 
     position: relative;
     height: 600px;
     width: 100%;
     background-color: black;
-    border-style: dashed;
-    border-width: thick;
-    border-color: red;
+}
+
+.knowledge {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background: white;
+    -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+.left-skills {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    color: #000000;
+}
+
+.left-skills h1 {
+    position: relative;
+    top: 100px;
+    font-size: 24px;
+    text-align: center;
 }
